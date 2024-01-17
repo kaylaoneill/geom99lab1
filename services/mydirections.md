@@ -9,7 +9,7 @@ Be creative and use multiple parameters from the API documentation to earn a top
 ## Directions URL
 
 ```
-https://YourDirectionsApiURLGoesHere
+(https://maps.googleapis.com/maps/api/directions/json?origin=Fleming+College/@44.2665621,-78.3745411&destination=Fleming+College+-+Frost+Campus/@44.3410189,-78.7412238,15z&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE)
 ```
 
 Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
