@@ -18,7 +18,7 @@ function initMap() {
   // Add a marker clusterer to manage the markers.
   new MarkerClusterer(map, markers, {
     imagePath:
-      "/clustering/ontarioparkslist.csv",
+      "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
   });
 }
 const locations = [
