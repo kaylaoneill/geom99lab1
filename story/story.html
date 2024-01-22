@@ -3,19 +3,8 @@
   <!-- Template for the map below: https://googlemaps.github.io/js-samples/. Using the advanced markers simple --!> 
   <head>
     <title>A Story Map By Kayla </title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <!-- playground-hide -->
-    <script>
-      const process = { env: {} };
-      process.env.GOOGLE_MAPS_API_KEY =
-        "AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w";
-    </script>
-    <!-- playground-hide-end -->
 
-    <link rel="stylesheet" type="text/css" href="./style.css" />
-    <script type="module" src="./index.js"></script>
-  </head>
-     <style>
+  <style>
   #map {
   height: 100%;
 }
@@ -30,6 +19,20 @@ body {
   padding: 0;
 }
     </style>
+  
+  
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- playground-hide -->
+    <script>
+      const process = { env: {} };
+      process.env.GOOGLE_MAPS_API_KEY =
+        "AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w";
+    </script>
+    <!-- playground-hide-end -->
+
+    <script type="module" src="./index.js"></script>
+  
+  </head>
   
   <body>
       <h1> A story </h1>
