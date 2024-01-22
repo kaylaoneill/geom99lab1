@@ -4,7 +4,7 @@
     <title>A Story Map By Kayla </title>
   <!-- Template for the map below:-->
       <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-
+    
     <style>
       h1 {color: green 
          text-align: center;} 
@@ -18,8 +18,22 @@
         margin: 0;
         padding: 0;
     </style>
-    <!-- Calling the javascript document index.js-->
-       <script type="module" src="index.js"></script>
+<script> 
+let map;
+
+async function initMap() {
+  const { Map } = await google.maps.importLibrary("maps");
+
+  map = new Map(document.getElementById("map"), {
+    center: { lat: -34.397, lng: 150.644 },
+    zoom: 8,
+  });
+}
+
+initMap();
+
+
+</script> 
   </head>
   
   <body>
