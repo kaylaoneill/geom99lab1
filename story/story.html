@@ -8,7 +8,7 @@
     <script>
       const process = { env: {} };
       process.env.GOOGLE_MAPS_API_KEY =
-        "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg";
+        "AIzaSyDv3MGflguusDaLmV_-BUlmuoUI4EbM88w";
     </script>
     <!-- playground-hide-end -->
 
@@ -30,7 +30,6 @@ body {
   padding: 0;
 }
     </style>
-
   
   <body>
       <h1> A story </h1>
@@ -38,31 +37,5 @@ body {
   </body>
 </html>
 
-
-
-   
-<div> async function initMap() {
-  // Request needed libraries.
-  const { Map } = (await google.maps.importLibrary(
-    "maps",
-  )) as google.maps.MapsLibrary;
-  const { AdvancedMarkerElement } = (await google.maps.importLibrary(
-    "marker",
-  )) as google.maps.MarkerLibrary;
-
-  const map = new Map(document.getElementById("map") as HTMLElement, {
-    center: { lat: 37.4239163, lng: -122.0947209 },
-    zoom: 14,
-    mapId: "4504f8b37365c3d0",
-  });
-
-  const marker = new AdvancedMarkerElement({
-    map,
-    position: { lat: 37.4239163, lng: -122.0947209 },
-  });
-}
-initMap();
-export {}; 
-</div>
 
 
