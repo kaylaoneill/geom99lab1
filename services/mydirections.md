@@ -8,10 +8,12 @@ Be creative and use multiple parameters from the API documentation to earn a top
 
 ## Directions URL
 
+Original templated:
 ```
 (https://maps.googleapis.com/maps/api/directions/json?origin=Fleming+College/@44.2665621,-78.3745411&destination=Fleming+College+-+Frost+Campus/@44.3410189,-78.7412238,15z&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE)
 ```
 
+Kayla's URL:
 ```
 https://maps.googleapis.com/maps/api/directions/json?origin=Fleming+College/@44.2665621,-78.3745411&destination=Fleming+College+-+Haliburton+Campus/@45.0516615,-78.5240721,17z&waypoints=optimize:true|Peterborough+Square/@44.3039465,-78.3215259,17z|Fleming+College+-+Frost+Campus/@44.3402671,-78.7440804,18z|Minden+River+Run/@44.9265535,-78.7588026,12.25z&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
