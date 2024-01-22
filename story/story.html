@@ -31,7 +31,11 @@ async function initMap() {
     center: { lat: 54.995800, lng: -7.307400},
     zoom: 13,
   });
- 
+  
+  const marker = new AdvancedMarkerElement({
+    map,
+    position: { lat: 37.4239163, lng: -122.0947209 },
+  });
 }  
 initMap();
 
