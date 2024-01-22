@@ -31,14 +31,8 @@ async function initMap() {
     center: { lat: 54.995800, lng: -7.307400},
     zoom: 13,
   });
-   const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  const markers = locations.map((location, i) => {
-    return new google.maps.Marker({
-      position: location,
-      label: labels[i % labels.length],
-    });
-  });
-  
+
+ 
  const locations = [
 { lat: 49.758123, lng: -92.65349},
 { lat: 45.442046, lng: -78.820583},
