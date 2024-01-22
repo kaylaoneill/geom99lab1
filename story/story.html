@@ -26,16 +26,32 @@ let map;
 async function initMap() {
   const { Map } = await google.maps.importLibrary("maps");
   const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
-  
+
   map = new Map(document.getElementById("map"), {
     center: { lat: 54.995800, lng: -7.307400},
     zoom: 13,
   });
-  
-  const marker = new AdvancedMarkerElement({
-    map,
-    position: { lat: 37.4239163, lng: -122.0947209 },
+   const labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  const markers = locations.map((location, i) => {
+    return new google.maps.Marker({
+      position: location,
+      label: labels[i % labels.length],
+    });
   });
+  
+ const locations = [
+{ lat: 49.758123, lng: -92.65349},
+{ lat: 45.442046, lng: -78.820583},
+{ lat: 48.17812017, lng: -90.22694426},
+{ lat: 45.3915, lng: -79.214},
+{ lat: 44.843699, lng: -80.002699},
+{ lat: 44.62555, lng: -78.85738},
+{ lat: 44.601, lng: -79.4829},
+{ lat: 46.944168, lng: -84.551017},
+{ lat: 45.442046, lng: -78.820583},
+{ lat: 48.17812017, lng: -90.22694426}
+
+];
 }  
 initMap();
 
