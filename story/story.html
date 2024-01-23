@@ -3,7 +3,7 @@
   <head>
     
     <title>A Story Map By Kayla </title>
-  <!-- Template for the map below:https://developers.google.com/maps/documentation/javascript/advanced-markers/add-marker-->
+  <!-- Template for the map below:https://developers.google.com/maps/documentation/javascript/markers-->
       <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     
     <style>
@@ -21,17 +21,18 @@
        
     </style>
 <script> 
-function initMap() {
+
+  function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 12,
-    center: { lat: 34.84555, lng: -111.8035 },
+    zoom: 11,
+    center: { lat: 54.995800, lng: -7.307400 },
   });
   // Set LatLng and title text for the markers. The first marker (Boynton Pass)
   // receives the initial focus when tab is pressed. Use arrow keys to
   // move between markers; press tab again to cycle through the map controls.
   const tourStops = [
-    [{ lat: 34.8791806, lng: -111.8265049 }, "Boynton Pass"],
-    [{ lat: 34.8559195, lng: -111.7988186 }, "Airport Mesa"],
+    [{ lat: 54.995193, lng: -7.323235 }, "Bishops Gate Hotel"],
+    [{ lat: 54.994062, lng: 7.302531 }, "Bridie's Take Away"],
     [{ lat: 34.832149, lng: -111.7695277 }, "Chapel of the Holy Cross"],
     [{ lat: 34.823736, lng: -111.8001857 }, "Red Rock Crossing"],
     [{ lat: 34.800326, lng: -111.7665047 }, "Bell Rock"],
