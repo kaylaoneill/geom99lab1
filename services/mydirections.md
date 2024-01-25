@@ -15,7 +15,7 @@ Original templated:
 
 Kayla's URL:
 ```
-(https://maps.googleapis.com/maps/api/directions/json?departure_time=now&origin=place_id:ChIJiSMgTuWN1YkR3cdzmZVHbro&destination=place_id:ChIJQ6-JO7up1UwRUnCUlE-S5q4&waypoints=optimize:true|place_id:ChIJn0busOuM1YkRAyNuutnMyzw|place_id:ChIJq6p6ZumM1YkRwlenRs5y5SY|place_id:ChIJG5mHN7wP1UwRhGjPv5YdXtQ&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE)
+https://maps.googleapis.com/maps/api/directions/json?departure_time=now&origin=place_id:ChIJiSMgTuWN1YkR3cdzmZVHbro&destination=place_id:ChIJQ6-JO7up1UwRUnCUlE-S5q4&waypoints=optimize:true|place_id:ChIJn0busOuM1YkRAyNuutnMyzw|place_id:ChIJq6p6ZumM1YkRwlenRs5y5SY|place_id:ChIJG5mHN7wP1UwRhGjPv5YdXtQ&key=AIzaSyCM-WWHYHIKY-do4kquMy9Z4wQaQx51AuE
 ```
 Copy/paste the JSON results and save them into the empty file ```mydirections.json``` in this repository
 
