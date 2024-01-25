@@ -3,7 +3,6 @@
    [
       {
          "geocoder_status" : "OK",
-         "partial_match" : true,
          "place_id" : "ChIJiSMgTuWN1YkR3cdzmZVHbro",
          "types" : 
          [
@@ -14,7 +13,6 @@
       },
       {
          "geocoder_status" : "OK",
-         "partial_match" : true,
          "place_id" : "ChIJn0busOuM1YkRAyNuutnMyzw",
          "types" : 
          [
@@ -25,7 +23,6 @@
       },
       {
          "geocoder_status" : "OK",
-         "partial_match" : true,
          "place_id" : "ChIJq6p6ZumM1YkRwlenRs5y5SY",
          "types" : 
          [
@@ -36,7 +33,6 @@
       },
       {
          "geocoder_status" : "OK",
-         "partial_match" : true,
          "place_id" : "ChIJG5mHN7wP1UwRhGjPv5YdXtQ",
          "types" : 
          [
@@ -47,7 +43,6 @@
       },
       {
          "geocoder_status" : "OK",
-         "partial_match" : true,
          "place_id" : "ChIJQ6-JO7up1UwRUnCUlE-S5q4",
          "types" : 
          [
